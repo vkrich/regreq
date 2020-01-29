@@ -1,8 +1,8 @@
 import requests as rq
 import re
 
-a=input().strip()
-b=input().strip()
+a='https://stepic.org/media/attachments/lesson/24472/sample0.html' #input().strip()
+b='https://stepic.org/media/attachments/lesson/24472/sample0.html' #input().strip()
 
 reg = r'(<a href=\")(.{1,})(\">)(.{1,})'#find link
 reg2= r'http.{1,}html'
